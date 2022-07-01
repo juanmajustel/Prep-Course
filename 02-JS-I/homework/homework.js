@@ -80,7 +80,7 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
-if (num > 90){
+if (num < 90){
   return true;
 }else{
   return false;
@@ -91,7 +91,7 @@ function mayorQueCincuenta(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
-if (num < 50){
+if (num > 50){
   return true;
 }else{
   return false;
@@ -137,7 +137,8 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  return num * num * num ;
+  var cubo = num * num * num ;
+  return cubo;
 }
 
 function elevar(num, exponent) {
@@ -198,15 +199,16 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinado = JUAN + '' + LOPEZ ;
+  var combinado = "Hello" + "World";
   return combinado;
    
 }
 function obtenerSaludo(nombre) {
+  const newLocal = `Hola ${nombre}!`;
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return 'Hola' + Juan + '!';
+  return newLocal;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -234,8 +236,8 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  let resultado = 1 * 1.20
-console.log (resultado)
+  return euro * 1.20
+
 }
 
 
