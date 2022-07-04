@@ -129,7 +129,8 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  return math.pow(num , 2);
+  let cuadrado = num * num;
+  return cuadrado;
 } 
 
 
@@ -144,7 +145,7 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return math.pow (num,exponent)
+  return num * exponent;
 }
 
 function redondearNumero(num) {
@@ -162,7 +163,7 @@ if (resto >=0.5){
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return math.ceil (num)
+  return math.ceil(num)
 }
 
 function numeroRandom() {
@@ -199,7 +200,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinado = "Hello" + "World";
+  let combinado = `hello' 'world`;
   return combinado;
    
 }
