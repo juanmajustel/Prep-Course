@@ -8,11 +8,11 @@ img{
 #thirdDiv{
     height: 600px;
     width: 500px;
-    background: rgb(214, 245, 37);
+    background-color: rgb(214, 245, 37);
     padding: 50px;
     border:10px solid black;
 }
 #spanId{
-    font-size: 18px;
+    font-size: 22px;
     margin:50px;
 }
